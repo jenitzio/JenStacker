@@ -1,4 +1,4 @@
-# RAW Studio
+# JenStacker
 
 JenStacker is a desktop app packaged from this repository's web app. It uses Electron to run `index.html` as a desktop application and GitHub Actions to build downloadable releases.
 
