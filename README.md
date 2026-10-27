@@ -39,8 +39,6 @@ Some Linux distributions may require AppImage/FUSE support. The provided build i
 - Compensation for focus breathing
 - Works smoothly on Linux and Windows
 
-Do not list features that are not implemented in the current version.
-
 ## Repository contents
 
 | Path | Purpose |
