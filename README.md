@@ -35,11 +35,9 @@ Some Linux distributions may require AppImage/FUSE support. The provided build i
 
 ## Features
 
-Add a short, accurate list of the app's features here. For example:
-
-- Describe the image formats the app supports.
-- Describe the editing or viewing tools currently available.
-- Note any limitations users should know about.
+- Advanced Stacking
+- Compensation for focus breathing
+- Works smoothly on Linux and Windows
 
 Do not list features that are not implemented in the current version.
 
@@ -95,14 +93,6 @@ The workflow uses `--publish never` during packaging. GitHub Actions uploads the
 Electron `22.3.27` is an older Electron release and no longer receives current security fixes. Before distributing this app for general use, consider upgrading Electron and electron-builder to supported versions, testing the app on each intended operating system, and reviewing the application's security settings.
 
 Release downloads are not currently code-signed. Signing can help users verify that an installer or executable comes from the expected publisher, but requires additional signing credentials and workflow configuration.
-
-## Contributing
-
-Contributions are welcome. Before opening a pull request:
-
-1. Keep the app's actual behavior and this README in sync.
-2. Test changes to `index.html` and `main.js`.
-3. Check the GitHub Actions workflow if build or packaging files change.
 
 ## License
 
